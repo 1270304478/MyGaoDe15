@@ -108,6 +108,8 @@ UiSettings settings = aMap.getUiSettings();         aMap.setLocationSource(this)
         super.onSaveInstanceState(outState);
         //在activity执行onSaveInstanceState时执行mMapView.onSaveInstanceState (outState)，实现地图生命周期管理
         mapView.onSaveInstanceState(outState);
+
+        //加油
     }
 
     @Override
